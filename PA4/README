@@ -1,0 +1,56 @@
+Name: Harrison Tseng
+USC NetID: tsenghar
+CS 455 PA4
+Spring 2024
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people or AI software, except for the the resources explicitly mentioned
+in the CS 455 Course Syllabus.  And I did not share my solution or part
+of it with other students in the course."
+
+Initial below to "sign" the above statement:
+
+Harrison Tseng
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+
+AnagramDictionary: In this class I decided to use a hashmap to represent our anagramdictionary. By converting each word to its "canonical" form of its sorted string, I was able to group each canonical form to every word it could recreate with all of the characters. This is to help with look up times going with approach 2 where we precompute all possible words. Also, by using a Hashset instead of an array, it is quicker to check if dictionary has a duplicate word even if we have to convert the hashset into an arraylist.
+
+Rack: The rack class is used to represent our rack. Using a TreeMap to build the character count in our rack, I would be able to create the necessary variables already in sorted order to pass to allSubsets to generate all possible subsets from our rack.
+
+ScoreTable: ScoreTable was hard coded with using an integer array to represent the score of each character. At first glance looking up char to find a score is faster in using a hashmap but by converting it to ascii values we can use an array to find score in O(1). It is also way faster given that the array will only ever be size 26.
+
+WordFinder: This is the main class that we use to general the final input. I decided to represent all of the final computations as a TreeMap with the word score as our Key and a TreeSet of all words of that score as our value. By doing so and using a neat trick of making the score negative, the given output could already be sorted by their natural ordering. 
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+
+
+
+
