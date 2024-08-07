@@ -1,0 +1,48 @@
+Name: Harrison Tseng
+USC NetId: tsenghar
+CSCI 455 PA2
+Spring 2024
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people or AI software, except for the resources explicitly
+mentioned in the CS 455 Course Syllabus.  And I did not share my
+solution or parts of it with other students in the course."
+
+Initial below to "sign" the above statement:
+
+HT
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+
+Lab 5 exercise 1:
+1. removelast 18, removelast 15, removelast 14, addlast 13, addlast 14, addlast 15, addlast 18 ==> total of 7
+2. removefront 1, removefront 3, removefront 4, addfront 3, addfront 1 ==> total of 5
+
+
+
+
